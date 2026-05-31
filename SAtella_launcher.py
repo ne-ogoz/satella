@@ -53,16 +53,16 @@ CHATGPT_MODELS = ["gpt-4o-mini", "gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"]
 # Mod file manifest: (display name, path relative to game_dir, raw download URL or None)
 # Set URL to None for files that must be placed manually.
 MOD_FILES: list[tuple[str, str, "str | None"]] = [
-    ("SAtella_sa[fs][mem].js", "cleo/SAtella_sa[fs][mem].js",                      None),
-    ("PED_PROFILES.csv",       "PED_PROFILES.csv",                                  "https://raw.githubusercontent.com/ne-ogoz/satella/refs/heads/main/PED_PROFILES.csv"),
-    ("SAtella_daemon.py",      "SAtella_daemon.py",                                 None),
-    ("SAtella_launcher.py",    "SAtella_launcher.py",                               None),
-    ("SAtella_daemon.ini",     "SAtella_daemon.ini",                                None),
-    ("arctic.onnx",            "SAtella_voices/en_US-arctic-medium.onnx",           "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx?download=true"),
-    ("arctic.onnx.json",       "SAtella_voices/en_US-arctic-medium.onnx.json",      "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json?download=true"),
-    ("Cleo",                   "CLEO.asi",                                           None),
-    ("Cleo Redux",             "cleo_redux.asi",                                    None),
-    ("cleo.ini",               "cleo/.config/cleo.ini",                             None),
+    ("SAtella_sa[fs][mem].js",   "cleo/SAtella_sa[fs][mem].js",                       "https://raw.githubusercontent.com/ne-ogoz/SAtella/refs/heads/main/cleo/SAtella_sa[fs][mem].js"),
+    ("PED_PROFILES.csv",         "PED_PROFILES.csv",                                  "https://raw.githubusercontent.com/ne-ogoz/satella/refs/heads/main/PED_PROFILES.csv"),
+    ("SAtella_daemon.py",        "SAtella_daemon.py",                                 "https://raw.githubusercontent.com/ne-ogoz/SAtella/refs/heads/main/SAtella_daemon.py"),
+    ("SAtella_launcher.py",      "SAtella_launcher.py",                               "https://raw.githubusercontent.com/ne-ogoz/SAtella/refs/heads/main/SAtella_launcher.py"),
+    ("SAtella_daemon.ini",       "SAtella_daemon.ini",                                "https://raw.githubusercontent.com/ne-ogoz/SAtella/refs/heads/main/SAtella_daemon.ini"),
+    ("arctic.onnx",              "SAtella_voices/en_US-arctic-medium.onnx",           "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx?download=true"),
+    ("arctic.onnx.json",         "SAtella_voices/en_US-arctic-medium.onnx.json",      "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json?download=true"),
+    ("Cleo Silent's ASI Loader", "CLEO.asi",                                          "https://github.com/cleolibrary/CLEO5/releases/download/v5.4.0/SA.CLEO-v5.4.0+Silent_ASI_Loader.zip"),
+    ("Cleo Redux",               "cleo_redux.asi",                                    "https://github.com/cleolibrary/CLEO-Redux/releases/download/1.4.3/cleo_redux_1.4.3.x86.zip"),
+    ("cleo.ini",                 "cleo/.config/cleo.ini",                             "https://raw.githubusercontent.com/ne-ogoz/SAtella/refs/heads/main/cleo/.config/cleo.ini"),
 ]
 
 # ── Widget helpers ────────────────────────────────────────────────────────────
